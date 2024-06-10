@@ -2,28 +2,32 @@ table {
 	border: 0.22em solid black;
 	border-collapse: collapse;
     padding : 0.2em;
-    margin-left: 5em;
-    margin-right:5em;
+    margin-left: 8%;
+    margin-right:8%;
 }
 
 th {
     border : 0.1em solid black;
-	background-color: #80a9a9;
+	background-color: #a7c9c9;
     text-align: center;
     text-align: left;
     margin-left: 5em;
     padding: 0.55em;
+    font-family: "EB Garamond", serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+	font-size:180% ;
+	color: rgb(22, 45, 45);
 }
 
 td {
 	border: 0.0625em solid rgb(0, 0, 0);
 	text-align: center;
+    font-family: "Acme", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 150%;
+	color:rgb(34, 54, 54);
+    background-color:white;
 }
-
-td {
-	background-color: white;
-}
-
-
-
-
