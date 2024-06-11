@@ -12,7 +12,7 @@
 	text-align: center;
 	align-items: center;
 	text-decoration: none;
-	margin-left: 1px;
+	margin-left: 0.5%;
 	transition-duration: 0.5s;
 }
 .gomb:hover {
@@ -35,8 +35,8 @@
     margin-bottom : 1%;
 	text-shadow: 50% 50% rgb(0, 0, 0);
     font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    /*font-weight: 400;
+    font-style: normal;*/
 }
 
 body{
