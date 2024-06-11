@@ -1,7 +1,7 @@
 .menu {
 	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto;
-	height: 3em;
+	grid-template-columns: auto auto auto auto auto auto;
+	height: 3.5em;
     
 }
 
@@ -11,8 +11,8 @@
 	color: 	#FFF5EE;
 	text-align: center;
 	align-items: center;
+	font-size: auto;
 	text-decoration: none;
-	margin-left: 0.5%;
 	transition-duration: 0.5s;
 }
 .gomb:hover {
@@ -23,32 +23,32 @@
 
 .fejlecek {
 	display: grid;
-	height: 20rem;
-    background-image: url(egy_kep.PNG);
+	height: 12em;
+    background-image: url(kep.PNG);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	align-items: center;
-	font-size: xx-large;
-	padding-left: 10%;
+	align-items: left;
+	font-size: x-large;
+	padding-left: 2%;
 	color: white;
-    margin-bottom : 1%;
 	text-shadow: 50% 50% rgb(0, 0, 0);
     font-family: "Poetsen One", sans-serif;
-    /*font-weight: 400;
-    font-style: normal;*/
+    font-weight: 400;
+    font-style: normal;
+	margin-bottom: 2%;
 }
 
 body{
     background-color: #d0efe1;
-}
+}	
 
 h2{
 		font-family: "EB Garamond", serif;
 		font-optical-sizing: auto;
 		font-weight: weight;
 		font-style: normal;
-		font-size:300% ;
+		font-size:220% ;
 		color: rgb(22, 45, 45);
 }
 
@@ -57,7 +57,7 @@ h3{
 	font-optical-sizing: auto;
 	font-weight: weight;
 	font-style: normal;
-	font-size:250% ;
+	font-size:190% ;
 	color: rgb(22, 45, 45);
 }
 
@@ -73,7 +73,7 @@ li{
 	font-family: "Acme", sans-serif;
 		font-weight: 500;
 		font-style: normal;
-		font-size: 60%;
+		font-size: 80%;
 		color:rgb(34, 54, 54)
 }
 

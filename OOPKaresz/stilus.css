@@ -1,9 +1,13 @@
-img{
-    width: 60%;
-}
 article{
     text-align: center;
     background-color: #7196969b;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+video{
+    width: 75%;
+}
+img{
+    width: 75%;
 }

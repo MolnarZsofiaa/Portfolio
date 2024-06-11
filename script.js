@@ -1,4 +1,4 @@
-const cim = document.querySelector('h1');
+const cim = document.querySelector('h2');
 const input = document.querySelector('input#nev');
 const button = document.querySelector('button#send');
 console.log(cim, input, button)
