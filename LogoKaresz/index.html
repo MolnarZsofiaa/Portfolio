@@ -31,8 +31,38 @@
         <article>
             <h2>K-logo</h2>
             <p>A logokareszek között ez volt az első féle. Ahogy a többinél itt is voltak nehezebb és könyebb feladatok. A végére vagy szép vagy nagyon érdekes alakzatok jöttek ki. Eleinte színte mindig tippeltem a fokokat mert lusta voltam számolgatni, de a végére valahogy rávettem magam. Amikor valami nem sikerült minidg valami, a mintától teljesen különböző alakzat jött létre. Mostmár szerintem vicces, de akkor nagyon ideges lehettem. Szerencsére amikor már megvolt az első alkazat (pl. itt az első korong) utána a könnyű volt azt ismételni.</p>
+            <h3>Feladatok</h3>
+            <p>Ez szerintem egy jó példa az ismétlődő logo mozaikos feladatokra. (Szerencsére nem volt nehéz.)</p>
             <figure><img src="./../korong_kep.png" alt="Korongok"></figure>
             <figcaption>Itt az volt a feladat, hogy egy ilyen nagyon szép korongos ábrát csináljunk.</figcaption>
+            <h3>Itt van, hogy csináltam egy korongot:</h3>
+            <pre>
+                <code>
+void Korong(double meret)
+{
+    Color szin = Color.Blue;
+    Jobbra(90);
+    for (int i = 0; i < 6; i++)
+    {
+        Háromszög(meret, szin);
+        szin =szin==Blue ? Red : Blue;
+        Jobbra(60);
+        Előre(meret);
+        Balra(120);
+        Téglalap(meret,meret/2, Yellow);
+        Jobbra(90);
+        Előre(meret / 2);
+        Balra(90);
+    }
+    Előre(meret);
+    Balra(90);
+    Hatszög(meret / 2, Color.Lime);
+    Jobbra(45);
+    Hátra(meret);
+}
+            
+                </code>
+            </pre>
         </article>
         <article>
         <h2>Rekurzió</h2>

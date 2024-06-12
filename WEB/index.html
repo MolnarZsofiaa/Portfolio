@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web</title>
     <link rel="stylesheet" href="./../stílus.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
@@ -25,41 +26,51 @@
     <div class ="fejlecek">
         <h1>Portfólió - Molnár Zsófia - WEB</h1>
     </div>
-    <h2>Egy rövid bevezető (avagy egy random youtube) videó a html-ről</h2>
-    <iframe src="https://www.youtube.com/embed/salY_Sm6mv4?si=vs7w8zYM3jRINQQC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p>Ez volt az utolsó anyag idén. Tavaly már egy kicsit tanultam html programozást, ezért nem voltak nehézségeim. Igaz itt kicsit máshogy vettük, de hozzászoktam. Szerintem a html-t nnem  nehze használni, és egy kevés munkával egész jól kinézhető weboldalakat tudunk kapni. Talán a stílus készítése a kedvenc részem benne. Igaz néha eléggénehéz jól méretezni a dolgokat, de valamit mindig csinálok. A téma vége felé tanultun egy kevés JavaScriptet. Ez még annyira nem megy jól, de remélhetőleg előbb-utóbb ez is úgy fog menni mint a többi téme.   </p>
-    <h3>Html gyakorlása:</h3>
-    <pre>
-        <code>
-            <!DOCTYPE html>
-            <html lang="hu">
-            <head>
-                <meta charset="UTF-8">
-                <title>Az óriáspanda</title>
-                <style>
-                h1{
-                    color: rgb(227, 214, 214);
-                 }
-                </style>
-                <link rel="stylesheet" href="style.css">
-            </head>
-            <body>
-                <h1>Óriáspanda</h1>
-                <p>Az óriáspanda (Ailuropoda melanoleuca), eredeti rendszertani nevén Ursus melanoleuca
-                    (fekete-fehér medve), vagy
-                    bambuszmedve a medvefélék (Ursidae) családjába tartozó emlős. Elterjedése csak maradványfoltokra korlátozódik
-                    Közép- és Dél-Kínában.</p>
-                <p><img src="panda.jpg" alt="Óriáspanda"></p>
-    
-                <p>Az óriáspanda táplálékának 98%-a bambusz, bár méz, tojás, hal, jamszgyökér és egyéb is szerepel az étlapján.
-                Könnyedén felismerhető a szemét, fülét és kerek testét körülvevő nagy fekete foltjairól.</p>
-                <p>A WWF jeleként és általában az állatvédelem jelképeként világszerte ismertté vált.</p>
-                <p>Az óriáspanda elterjedési területe mindössze 5900 km², amely magában foglalja Szecsuan, Kanszu és Sanhszi kínai tartományok hegyvidéki területeit. Az óriáspanda természetes élőhelyei a sűrű erdővel benőtt szubtrópusi hegyoldalak. Itt él nyáron 2700–4000 méter magasságig, télen alacsonyabbra vándorol, gyakran 800 méteres magasságig. Élettere általában nedves és csapadékban gazdag; a nyár hűvös, a tél hideg.
-                </p>
-            </body>
-            </html>
-        </code>
-    </pre>
+    <main> 
+        <article>
+            <h2>Egy rövid bevezető a html-ről</h2>
+            <iframe  src=https://hu.wikipedia.org/wiki/HTML></iframe>
+            <p>Ez volt az utolsó anyag idén. Tavaly már egy kicsit tanultam html programozást, ezért nem voltak nehézségeim. Igaz itt kicsit máshogy vettük, de hozzászoktam. Szerintem a html-t nnem  nehze használni, és egy kevés munkával egész jól kinézhető weboldalakat tudunk kapni. Talán a stílus készítése a kedvenc részem benne. Igaz néha eléggénehéz jól méretezni a dolgokat, de valamit mindig csinálok. A téma vége felé tanultun egy kevés JavaScriptet. Ez még annyira nem megy jól, de remélhetőleg előbb-utóbb ez is úgy fog menni mint a többi téme.   </p>
+        </article> 
+        <article>
+            <h3>Stílusok gyakorlása:</h3>
+            <p>Ahogy már korábban említettem a stílust az esetek nagyrészében szerettem csinálni. A következő kód a Panda oldal stílusa:</p>
+            <pre>
+                <code>
+p {
+    color: darkgreen;
+    background-color: rgb(212, 212, 149);
+    padding:15px 30px; 
+    margin: 30px;
+    border-radius: 5px;
+    border: 3px dashed darkgreen;
+    /*  border: 5px dotted darkgreen;
+    border: 5px dashed darkgreen;
+    border: 5px solid darkgreen; */
+    font-size: 20px;
+    font-family:Arial,Helvetica,sans-serif;
+                    
+}
+                    
+img {
+    width: 100%;
+}
+                   
+body {
+    width: 70%;
+    margin: 0 auto;
+background-color: rgb(48, 82, 48);
+    }
+                </code>
+            </pre>    
+            <a class="stilus" href="https://molnarzsofiaa.github.io/Web/st%C3%ADluslapok/panda.html">Így néz ki a stílus a weboldalon, szerintem eléggé jól sikerült.</a>  
+        </article>
+        <article> 
+            <h3>JavaScript:</h3>
+            <p>Ezt még nem nagyon értem, de amikor majd fogok tudni ilyet magamtól csinálni, remélhetőleg soka fog segíteni a weboldal élvezhetőségében. </p>
+            <img src="./../java.PNG" alt="egy kep">
+        </article>
+    </main>    
     <footer>
         <p>Elérted az oldal végét, remélem tetszett! <a href="./../index.html">Vissza a főoldalra.</a></p>
    </footer>

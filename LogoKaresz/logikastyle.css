@@ -9,5 +9,13 @@ article{
     border-radius: 10%;
     padding:1.5%;
     margin-bottom: 2%;
-    border: 0.3em #2F4F4F double; 
+    border: 0.5em #2F4F4F double; 
+}
+
+pre>code{
+    text-align: left;
+    font-size: 110%;
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 5%;
+    border: 0.5em #2F4F4F double; 
 }

@@ -38,9 +38,13 @@
     font-style: normal;
 	margin-bottom: 2%;
 }
-
 body{
-    background-color: #d0efe1;
+	background-color: #d0efe1;
+}
+
+main{
+  
+	margin-left: 2%;
 }	
 
 h2{
@@ -68,25 +72,33 @@ p, figcaption{
 		font-weight: 500;
 		font-style: normal;
 		font-size: 150%;
-		color:rgb(34, 54, 54)
+		color:rgb(34, 54, 54);
 }
 
 li{
 	font-family: "Acme", sans-serif;
 		font-weight: 500;
 		font-style: normal;
-		font-size: 80%;
-		color:rgb(34, 54, 54)
-}
-
-ol>li{
-	font-family: "Acme", sans-serif;
-		font-weight: 500;
-		font-style: normal;
 		font-size: 150%;
-		color:rgb(34, 54, 54)
+		color:rgb(34, 54, 54);
 }
 
 footer{
-	font-size:  70%;
+	font-size:  90%;
+}
+
+pre code {
+	background-color: #eee;
+	border: 1px solid #999;
+	display: block;
+  }
+
+  code{
+	padding-left: 0%;
+
+  }
+
+a{
+	color:rgb(34, 54, 54);
+	font-size: 100%;
 }
